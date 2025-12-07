@@ -19,7 +19,7 @@ def sqrt(n):
 
 
 def normalize_number(number):
-    """Normalize coefficient for cleaner output."""
+    """Normalize number for clean output."""
     if number.is_integer():
         return int(number)
     return round(number, 6)
