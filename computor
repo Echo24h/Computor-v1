@@ -54,7 +54,7 @@ def parse_side(side):
         coeff = float(coeff) if coeff not in ["", "+", "-"] else float(coeff + "1")
         degree = int(degree)
         coeffs[degree] = coeffs.get(degree, 0) + coeff
-    print(f"Parsed side '{side.strip()}' to coefficients: {coeffs}")
+    # print(f"Parsed side '{side.strip()}' to coefficients: {coeffs}")
     return coeffs
 
 
